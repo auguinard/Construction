@@ -1,0 +1,44 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("images/expl.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(#top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(#top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  a{
+    text-decoration: none;
+     color: #fff;
+  }
+  .view {
+    margin-bottom: 1.2rem;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.18), 0 4px 20px 0 rgba(0, 0, 0, 0.14);
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+}
+.mask{
+ font-weight: 900;
+ font-family: 'montserrat',sans-serif;
+ font-size: 20px;
+ cursor: pointer;
+}
